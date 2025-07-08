@@ -10,12 +10,15 @@ namespace FactoryPatternExercise2
     {
         public void LoadData()
         {
-            Console.WriteLine(“I am reading data from a list, SQL database, mongo database.");
+            Console.WriteLine("I am reading data from a list database.");
+            var payload = new Product();
+            Console.WriteLine(payload.Name);
+            Console.WriteLine(payload.Price);
         }
 
         public void SaveData()
         {
-            Console.WriteLine(“I am reading data from a list, SQL database, mongo database.");
+            Console.WriteLine("I am saving data to a list database.");
         }
     }
 }
