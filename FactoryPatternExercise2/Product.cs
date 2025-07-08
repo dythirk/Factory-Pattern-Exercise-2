@@ -12,7 +12,6 @@ namespace FactoryPatternExercise2
         {
             Name = "Subaru";
             Price = 50000;
-
         }
         public string Name { get; set; } = "foo";
         public double Price { get; set; } = 25000;

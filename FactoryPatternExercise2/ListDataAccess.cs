@@ -12,10 +12,9 @@ namespace FactoryPatternExercise2
         {
             Console.WriteLine("I am reading data from a list database.");
             var payload = new Product();
-            Console.WriteLine(payload.Name);
-            Console.WriteLine(payload.Price);
+            Console.WriteLine($"Data point Name: {payload.Name}");
+            Console.WriteLine($"Data point Price: {payload.Price}");
         }
-
         public void SaveData()
         {
             Console.WriteLine("I am saving data to a list database.");
